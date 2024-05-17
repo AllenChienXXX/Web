@@ -56,7 +56,7 @@ params:
   title: "Allen Chien"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  # favicon: "/fav.png"
+  favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -172,29 +172,28 @@ params:
     # title: "Custom Name"
     items:
       - job: "Undergraduate Research Assistant"
-        company: "People and Robotics Lab @ UW Madison"
+        company: "People and Robotics Lab"
         companyUrl: "https://peopleandrobots.wisc.edu/"
         date: "May 2024 - present"
-        # featuredLink:
-          # enable: false
-          # name: "View the project"
-          # url: "https://example.com"
-        content: "I am programming care robots on Mujuco with ROS2."
-      - job: "Undergraduate Research Assistant"
-        company: "BadgerRL @ UW Madison"
-        companyUrl: "https://www.cs.wisc.edu/"
-        date: "Jan 2024 - present"
-        content: "I am currently working on Robocup challenge."
+        content: |
+         "I am programming care robots on Mujuco with ROS2."
 
       - job: "Undergraduate Research Assistant"
-        company: "Distributed AI Lab @ Hunter College"
+        company: "BadgerRL"
+        companyUrl: "https://www.cs.wisc.edu/"
+        date: "Jan 2024 - present"
+        content: |
+         "I am currently working on Robocup challenge, where we teach robots to kick soccer"
+
+      - job: "Undergraduate Research Assistant"
+        company: "Distributed AI Lab"
         companyUrl: "https://anraja.commons.gc.cuny.edu/research-distributed-artificial-intelligence-research-dair-lab/"
         date: "Jun 2023 - Dec 2023"
         content: |
-          I worked on Multi-Agent Reinforcement Learning on StarCraft.
+          I worked on Multi-Agent Reinforcement Learning on StarCraft, studied MARL algorithms: QMIX, QTRAN, VDN, MAPPO, etc.
 
       - job: "Supplemental Instruction Tutor"
-        company: "CUNY"
+        company: "Academic Peer Instruction"
         companyUrl: "https://www.cuny.edu/"
         date: "Mar 2023 - Dec 2023"
         # info:
@@ -203,7 +202,7 @@ params:
           I tutored students and assist them with developing the skills they need to do well in the course they are enrolled in.
 
       - job: "National Institutes of Health Bridges(NIH Bridges)"
-        company: "CUNY"
+        company: "CUNY Research Foundation"
         companyUrl: "https://www.cuny.edu/"
         date: "June 2017 - Nov 2019"
         # featuredLink:
@@ -308,7 +307,7 @@ params:
 
       - title: Phishing Email Filtering
         content: A web app that allows to input emails and classify them as phishing or not.
-        image: /images/projects/PEF.jpg
+        image: /images/projects/PEF.png
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
