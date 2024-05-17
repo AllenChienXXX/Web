@@ -176,14 +176,14 @@ params:
         companyUrl: "https://peopleandrobots.wisc.edu/"
         date: "May 2024 - present"
         content: |
-         "I am programming care robots on Mujuco with ROS2."
+         I am programming care robots on Mujuco with ROS2.
 
       - job: "Undergraduate Research Assistant"
         company: "BadgerRL"
         companyUrl: "https://www.cs.wisc.edu/"
         date: "Jan 2024 - present"
         content: |
-         "I am currently working on Robocup challenge, where we teach robots to kick soccer"
+         I am currently working on Robocup challenge, where we teach robots to kick soccer
 
       - job: "Undergraduate Research Assistant"
         company: "Distributed AI Lab"
