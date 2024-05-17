@@ -267,71 +267,72 @@ params:
     # title: "Custom Name"
     items:
       - title: 2024 GoldWater Scholar
-        content: Competed with undergraduate students to won scolarship.
-        url: https://example.com
-        image: /images/achievment.jpg
+        # content: Competed with undergraduate students to won scolarship.
+        url: https://goldwaterscholarship.gov/
+        # image: /images/achievment.jpg
       - title: Best Presentation Award at MadData 2024 Hackathon
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
+        # content: Developed a product using Artificial Intelligence.
+        # image: /images/achievment.jpg
       - title: NIH Bridges Scholar
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
+        # content: Developed a theme and getting 1K+ downloads per month.
+        # url: "https://github.com/gurusabarish/hugo-profile"
+        # image: /images/achievment.jpg
       - title: First Place at Bio x ML Hackathon
-        content: We are developed a product which can help others.
+        # content: We are developed a product which can help others.
       - title: First place in CUNY-LaGCC Hackathon 2023
-        content: Contributed to a open source project.
-        url: https://example.com
+        # content: Contributed to a open source project.
+        # url: https://example.com
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Support Vector Machine
+        content: Build Support Vector Machine algorithm from scratch in C++ and utilize OpenGL to visualize the algorithm.
+        image: /images/projects/svmplot.png
+        # featured:
+        #   name: Demo
+        #   link: https://github.com/AllenChienXXX/SVM-CPP
+        badges:
+          - "C++"
+          - "OpenGL"
+          # - "Javascript"
+        links:
+          # - icon: fa fa-envelope
+            # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/AllenChienXXX/SVM-CPP
+          # - icon: fab fa-twitter
+            # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Phishing Email Filtering
+        content: A web app that allows to input emails and classify them as phishing or not.
+        image: /images/projects/PEF.jpg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Python"
+          - "Streamlit"
+          - "Supervised Machine Learning"
+        links:
+          - icon: fab fa-github
+            url: https://huggingface.co/spaces/allenchienxxx/PEF
+
+      - title: LaGuardia Express Search
+        content: A web app that takes text and speech input and redirect user to the proper resources.
+        image: /images/projects/LES.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Presentation Vedio
+          link: https://www.youtube.com/watch?v=SXRM7PtA9DU
         badges:
           - "Hugo"
           - "Bootstrap"
           - "Javascript"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/AllenChienXXX/hackathon
 
   #Contact
   contact:
