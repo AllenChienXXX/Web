@@ -223,17 +223,7 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      # - title: "Master of Business Administration"
-      #   school:
-      #     name: "University of California, Berkeley"
-      #     url: "https://example.org"
-      #   date: "2013 - 2015"
-      #   GPA: "3.8 out of 5.0"
-      #   content: |-
-      #     Extracurricular Activities
-      #       - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+    - title: "Bachelor of Science in Computer Science"
         school:
           name: "University of Wisconsin Madison"
         companyUrl: "https://www.cs.wisc.edu/"
@@ -251,6 +241,17 @@ params:
         #   enable: true
         #   name: "My academic record"
         #   url: "https://example.com"
+  - title: "Associate of Science in Computer Science"
+        school:
+          name: "City University of New York, LaGuardia Community College"
+          url: "https://www.laguardia.edu/"
+        # date: "2013 - 2015"
+        GPA: "3.9 out of 4.0"
+        # content: |-
+          # Extracurricular Activities
+            # - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            # - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+  
       # - title: "High School"
       #   school:
       #     name: "Thomas Jefferson High School for Science and Technology."
@@ -285,25 +286,48 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
     items:
+      - title: Coopot
+          content: Robot moves toward obsticles, a prototype for rover to clean trash.
+
+          image: /images/projects/coopot.png
+          featured:
+            name: Demo
+            link: https://www.youtube.com/watch?v=4qWkSPhskc0
+          badges:
+            - "Python"
+            - "C++"
+            - "ROS2"
+            - "Ignition Gazebo"
+          links:
+            - icon: fab fa-github
+              url: https://github.com/AllenChienXXX/Robo_ws
+
+     - title: MadVisionPro
+        content: A web app that tracks finger movement in air and display the result on the screen.
+
+        image: /images/projects/MadV.png
+        featured:
+          name: Demo
+          link: https://www.youtube.com/watch?v=EYsZlrulQxk
+        badges:
+          - "Python"
+          - "Javascript"
+          - "Computer Vision"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/AllenChienXXX/MadVision
+
       - title: Support Vector Machine
         content: Build Support Vector Machine algorithm from scratch in C++ and utilize OpenGL to visualize the algorithm.
         image: /images/projects/svmplot.png
-        # featured:
-        #   name: Demo
-        #   link: https://github.com/AllenChienXXX/SVM-CPP
+
         badges:
           - "C++"
           - "OpenGL"
-          # - "Javascript"
         links:
-          # - icon: fa fa-envelope
-            # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/AllenChienXXX/SVM-CPP
-          # - icon: fab fa-twitter
-            # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Phishing Email Filtering
         content: A web app that allows to input emails and classify them as phishing or not.
@@ -314,6 +338,7 @@ params:
         badges:
           - "Python"
           - "Streamlit"
+          - "Hugging Face"
           - "Supervised Machine Learning"
         links:
           - icon: fab fa-github
@@ -326,8 +351,8 @@ params:
           name: Presentation Vedio
           link: https://www.youtube.com/watch?v=SXRM7PtA9DU
         badges:
-          - "Hugo"
-          - "Bootstrap"
+          - "Python"
+          - "Flask"
           - "Javascript"
         links:
           - icon: fab fa-github
