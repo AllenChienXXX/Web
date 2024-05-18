@@ -303,7 +303,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/AllenChienXXX/Robo_ws
 
-     - title: MadVisionPro
+      - title: MadVisionPro
         content: A web app that tracks finger movement in air and display the result on the screen.
 
         image: /images/projects/MadV.png
