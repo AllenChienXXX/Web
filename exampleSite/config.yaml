@@ -317,7 +317,7 @@ params:
             url: https://github.com/AllenChienXXX/MadVision
 
       - title: Support Vector Machine
-        content: Build Support Vector Machine algorithm from scratch in C++ and utilize OpenGL to visualize the algorithm. Built this project because I really like the algorithm of SVM.
+        content: Build Support Vector Machine algorithm from scratch in C++ and utilize OpenGL to visualize the algorithm.
         image: /images/projects/svmplot.png
 
         badges:
