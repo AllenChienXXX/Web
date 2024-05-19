@@ -56,7 +56,7 @@ params:
   title: "Allen Chien"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  # favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -127,13 +127,14 @@ params:
     title: "Allen Chien."
     subtitle: "I write programs for robots"
     content: "A passionate AI and Robotics engineer"
-    # image: /images/hero.svg
+    image: /images/cen.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
+      # url: :exampleSite/static/resume.pdf
       url: "https://drive.google.com/file/d/1KHg3-q2_ChEfAYJUxiD1LJ1LMo3cwoPo/view?usp=sharing"
       download: true
       newPage: false
