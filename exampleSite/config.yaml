@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "exampleSite/static/resume.pdf"
+      url: "https://docs.google.com/document/d/1w3JY9wnc2BP1nmpsD7n9b9rfbbmiIAolTvVjWCIJkOk/edit?usp=sharing"
       download: true
       newPage: false
     socialLinks:
