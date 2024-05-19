@@ -328,7 +328,7 @@ params:
             url: https://github.com/AllenChienXXX/SVM-CPP
 
       - title: Phishing Email Filtering
-        content: A web app that allows to input emails and classify them as phishing or not.
+        content: A web app that allows to input emails and classify them as phishing or not. This web interface is associated with my paper "Phishing Email Filtering Using Deep Learning"
         image: /images/projects/PEF.png
         # featured:
         #   name: Demo
@@ -343,7 +343,7 @@ params:
             url: https://huggingface.co/spaces/allenchienxxx/PEF
 
       - title: LaGuardia Express Search
-        content: A web app that takes text and speech input and redirect user to the proper resources.
+        content: A web app that takes text and speech input and redirect user to the proper resources. Won first place at CUNY-LAGCC Hackathon
         image: /images/projects/LES.png
         featured:
           name: Presentation Vedio
@@ -362,7 +362,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Eail me
-    btnLink: achien4@wisc.edu
+    btnLink: mailto:achien4@wisc.edu
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
