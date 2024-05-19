@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://docs.google.com/document/d/1w3JY9wnc2BP1nmpsD7n9b9rfbbmiIAolTvVjWCIJkOk/edit?usp=sharing"
+      url: "https://drive.google.com/file/d/1KHg3-q2_ChEfAYJUxiD1LJ1LMo3cwoPo/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -288,8 +288,7 @@ params:
     enable: true
     items:
       - title: Coopot
-        content: Robot moves toward obsticles, a prototype for rover to clean trash.
-
+        content: Robot moves toward obsticles, a prototype for rover to clean trash. Project proposal for Queens College Start Up Challenge.
         image: /images/projects/coopot.png
         featured:
           name: Demo
@@ -304,8 +303,7 @@ params:
             url: https://github.com/AllenChienXXX/Robo_ws
 
       - title: MadVisionPro
-        content: A web app that tracks finger movement in air and display the result on the screen.
-
+        content: A web app that tracks finger movement in air and display the result on the screen. Won best presentation award at MadData 2024 Hackathon
         image: /images/projects/MadV.png
         featured:
           name: Demo
@@ -319,7 +317,7 @@ params:
             url: https://github.com/AllenChienXXX/MadVision
 
       - title: Support Vector Machine
-        content: Build Support Vector Machine algorithm from scratch in C++ and utilize OpenGL to visualize the algorithm.
+        content: Build Support Vector Machine algorithm from scratch in C++ and utilize OpenGL to visualize the algorithm. Built this project because I really like the algorithm of SVM.
         image: /images/projects/svmplot.png
 
         badges:
