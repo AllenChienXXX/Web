@@ -135,7 +135,7 @@ params:
       enable: true
       name: "Resume"
       # url: :exampleSite/static/resume.pdf
-      url: "https://drive.google.com/file/d/1KHg3-q2_ChEfAYJUxiD1LJ1LMo3cwoPo/view?usp=sharing"
+      url: "https://drive.google.com/file/d/15YRRkGvlYqEvtYF8iuYEovOE2f-Rdxi7/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
