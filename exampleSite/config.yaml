@@ -79,9 +79,9 @@ params:
     # defaultTheme: "light" # dark
 
   font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
+    fontSize: 2rem # default: 1rem
+    fontWeight: 300 # default: 400
+    lineHeight: 2 # default: 1.5
     textAlign: left # default: left
 
   # color preference
@@ -127,7 +127,7 @@ params:
     title: "Allen Chien."
     subtitle: "I write programs for robots"
     content: "A passionate AI and Robotics engineer"
-    image: /images/cen.jpg
+    image: /images/mount_jade.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -206,9 +206,9 @@ params:
         company: "CUNY Research Foundation"
         companyUrl: "https://www.cuny.edu/"
         date: "June 2017 - Nov 2019"
-        # featuredLink:
-        #   enable: true
-        #   url: "https://example.com"
+        featuredLink:
+          enable: true
+          url: "https://ieeexplore.ieee.org/document/10487729"
         content: |
           I worked on phishing email attacks with supervised machine learning and published a paper to CSDE2023.
 
