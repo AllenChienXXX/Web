@@ -88,9 +88,9 @@ params:
   color:
     textColor: "black"
     secondaryTextColor: "blue"
-    backgroundColor: "white"
-    secondaryBackgroundColor: "lightgray"
-    primaryColor: "lightcyan"
+    backgroundColor: "lightgray"
+    secondaryBackgroundColor: "white"
+    primaryColor: "lightlavender"
     secondaryColor: "lightgray"
 
     darkmode:
@@ -98,7 +98,7 @@ params:
       secondaryTextColor: "blue"
       backgroundColor: "black"
       secondaryBackgroundColor: "gray"
-      primaryColor: "white"
+      primaryColor: "gray"
       secondaryColor: "lightcyan"
 
   # If you want to customize the menu, you can change it here
