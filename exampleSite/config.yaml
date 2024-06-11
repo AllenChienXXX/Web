@@ -205,7 +205,7 @@ params:
       - job: "National Institutes of Health Bridges(NIH Bridges)"
         company: "CUNY Research Foundation"
         companyUrl: "https://www.cuny.edu/"
-        date: "June 2017 - Nov 2019"
+        date: "Sep 2022 - Nov 2023"
         featuredLink:
           enable: true
           url: "https://ieeexplore.ieee.org/document/10487729"
