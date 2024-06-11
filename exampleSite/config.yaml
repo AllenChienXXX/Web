@@ -90,7 +90,7 @@ params:
     secondaryTextColor: "blue"
     backgroundColor: "white"
     secondaryBackgroundColor: "lightgray"
-    primaryColor: "cyan"
+    primaryColor: "lightcyan"
     secondaryColor: "lightgray"
 
     darkmode:
@@ -99,7 +99,7 @@ params:
       backgroundColor: "black"
       secondaryBackgroundColor: "gray"
       primaryColor: "white"
-      secondaryColor: "cyan"
+      secondaryColor: "lightcyan"
 
   # If you want to customize the menu, you can change it here
   navbar:
