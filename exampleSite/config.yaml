@@ -88,8 +88,8 @@ params:
   color:
     textColor: "black"
     secondaryTextColor: "blue"
-    backgroundColor: "lightgray"
-    secondaryBackgroundColor: "white"
+    backgroundColor: "white"
+    secondaryBackgroundColor: "lightgray"
     primaryColor: "lightlavender"
     secondaryColor: "lightgray"
 
