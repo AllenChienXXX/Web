@@ -85,21 +85,21 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+  color:
+    textColor: "black"
+    secondaryTextColor: "blue"
+    backgroundColor: "white"
+    secondaryBackgroundColor: "gray"
+    primaryColor: "white"
+    secondaryColor: "green"
 
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+    darkmode:
+      textColor: "white"
+      secondaryTextColor: "blue"
+      backgroundColor: "black"
+      secondaryBackgroundColor: "gray"
+      primaryColor: "black"
+      secondaryColor: "cyan"
 
   # If you want to customize the menu, you can change it here
   navbar:
