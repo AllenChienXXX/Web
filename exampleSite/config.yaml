@@ -97,7 +97,7 @@ params:
       textColor: "white"
       secondaryTextColor: "blue"
       backgroundColor: "black"
-      secondaryBackgroundColor: "gray"
+      secondaryBackgroundColor: "darkgray"
       primaryColor: "gray"
       secondaryColor: "lightcyan"
 
