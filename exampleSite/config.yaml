@@ -177,15 +177,13 @@ params:
         companyUrl: "https://peopleandrobots.wisc.edu/"
         date: "May 2024 - present"
         content: |
-         I am programming care robots on Mujuco with ROS2.
-
+          Integrate the Robot Operating System (ROS2) with a physical robot to achieve precise navigation and low-level control, enabling the robot to perform caregiving tasks such as handing water to patients with robotic arms and navigating through various rooms using ROS2 NAV.
       - job: "Undergraduate Research Assistant"
         company: "BadgerRL"
         companyUrl: "https://www.cs.wisc.edu/"
         date: "Jan 2024 - present"
         content: |
-         I am currently working on Robocup challenge, where we teach robots to kick soccer
-
+          I train robots in simulation to help them learn soccer. I am responsible for exploring new approaches to efficiently transition from simulation to real-world environments.
       - job: "Undergraduate Research Assistant"
         company: "Distributed AI Lab"
         companyUrl: "https://anraja.commons.gc.cuny.edu/research-distributed-artificial-intelligence-research-dair-lab/"
