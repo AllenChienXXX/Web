@@ -152,10 +152,10 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/selfie.jpg"
     content: |-
       I am a undergraduate student at the University of Wisconsin Madison.
-      I am currently working at People and Robotics Laboratory on robot programming.
+      I am currently working at People and Robotics Laboratory on robot programming for stretch robot.
     skills:
       enable: true
       title: "Here are some programming languages I'm proficient in:"
