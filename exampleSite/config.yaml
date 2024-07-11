@@ -208,7 +208,7 @@ params:
           enable: true
           url: "https://ieeexplore.ieee.org/document/10487729"
         content: |
-          I worked on phishing email attacks with supervised machine learning and published a paper to CSDE2023.
+          I worked on analyzingphishing email attacks with supervised machine learning models and published my findings in a paper to CSDE2023.
 
       # - job: "Product Designer"
       #   company: "Google"
