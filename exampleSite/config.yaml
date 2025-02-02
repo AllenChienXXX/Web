@@ -127,17 +127,17 @@ params:
     title: "Allen Chien."
     subtitle: "I write programs for robots"
     content: "A passionate AI and Robotics engineer"
-    image: /images/mount_jade.jpg
+    image: /images/nice.jpg
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+      roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
       # url: :exampleSite/static/resume.pdf
-      url: "https://drive.google.com/file/d/15YRRkGvlYqEvtYF8iuYEovOE2f-Rdxi7/view?usp=sharing"
+      url: "exampleSite/static/Allen_Chien_Resume.pdf"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -150,15 +150,14 @@ params:
 
   # About
   about:
-    enable: true
+    enable: false
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a undergraduate student at the University of Wisconsin Madison.
-      I am currently working at People and Robotics Laboratory on robot programming for stretch robot.
+      Recent grad from UW Madison, currently working on programming robot to perform caregiving tasks.
     skills:
       enable: true
-      title: "Here are some programming languages I'm proficient in:"
+      title: "Programming Languages:"
       items:
         - "Python"
         - "C/C++"
@@ -169,7 +168,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Undergraduate Research Assistant"
@@ -218,7 +217,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -227,7 +226,7 @@ params:
           name: "University of Wisconsin Madison"
         companyUrl: "https://www.cs.wisc.edu/"
         # date: "2024 - 2025"
-        GPA: "3.8 out of 4.0"
+        GPA: "3.4 out of 4.0"
       - title: "Associate of Science in Computer Science"
         school:
           name: "City University of New York, LaGuardia Community College"
