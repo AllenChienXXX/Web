@@ -123,19 +123,19 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Allen Chien."
+    intro: ""
+    title: "Yello"
     subtitle: "I write programs for robots"
-    content: "A passionate AI and Robotics engineer"
+    content: "Robotics Software Engineer"
     image: /images/nice.jpg
     bottomImage:
       enable: true
-      roundImage: true # Make hero image circular | default false
+    roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
       # url: :exampleSite/static/resume.pdf
-      url: "exampleSite/static/Allen_Chien_Resume.pdf"
+      url: exampleSite/static/Allen_Chien_Resume.pdf
       download: true
       newPage: true
     socialLinks:
